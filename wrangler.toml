@@ -1,5 +1,5 @@
 name = "umdaui-update-server"
-type = "javascript"
+type = "webpack"
 zone_id = ""
 account_id = ""
 route = ""
@@ -12,7 +12,7 @@ GITHUB_REPO = 'UMDA_UI'
 GITHUB_TOKEN = ''                # Optional - used with private repos
 
 [build]
-command = "npm install && npm run build"
+command = "pnpm install && pnpm build"
 
 [build.upload]
 format = "service-worker"
