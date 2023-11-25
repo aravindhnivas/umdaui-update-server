@@ -10,3 +10,6 @@ GITHUB_TOKEN = ''                # Optional - used with private repos
 
 [build]
 command = "npm install && npm run build"
+
+[build.upload]
+format = "service-worker"
