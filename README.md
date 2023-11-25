@@ -1,6 +1,6 @@
 # Tauri Update Server: Cloudflare
 
-[![Deploy to Cloudflare Workers: umdaui-update-server](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/aravindhnivas/umdaui-update-server)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/killeencode/umdaui-update-server)
 
 ## One-Click Deploy
 
