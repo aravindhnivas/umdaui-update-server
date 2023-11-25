@@ -1,10 +1,7 @@
 name = "umdaui-update-server"
-type = "webpack"
-zone_id = ""
-account_id = ""
-route = ""
 workers_dev = true
 compatibility_date = "2022-03-26"
+main = "src/index.ts"
 
 [vars]
 GITHUB_ACCOUNT = 'aravindhnivas'
