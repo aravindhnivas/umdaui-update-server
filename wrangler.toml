@@ -1,17 +1,12 @@
-name = "felion-update-server"
-type = "javascript"
-zone_id = ""
-account_id = ""
-route = ""
+name = "umda-tauri-update-server"
 workers_dev = true
-compatibility_date = "2022-03-26"
+compatibility_date = "2023-11-25"
+main = "src/main.ts"
 
 [vars]
 GITHUB_ACCOUNT = 'aravindhnivas'
-GITHUB_REPO = 'felion_gui_v4'
-GITHUB_TOKEN = '' # Optional - used with private repos
+GITHUB_REPO = 'UMDA_UI'
+GITHUB_TOKEN = ''                # Optional - used with private repos
 
 [build]
-command = "npm install && npm run build"
-[build.upload]
-format = "service-worker"
+command = "pnpm install && pnpm build"
