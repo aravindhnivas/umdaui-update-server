@@ -10,6 +10,3 @@ GITHUB_TOKEN = ''                # Optional - used with private repos
 
 [build]
 command = "pnpm install && pnpm build"
-
-[build.upload]
-format = "service-worker"
