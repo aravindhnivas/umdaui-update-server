@@ -1,7 +1,7 @@
 name = "umda-tauri-update-server"
 workers_dev = true
 compatibility_date = "2023-11-25"
-main = "src/main.ts"
+main = "src/index.ts"
 
 [vars]
 GITHUB_ACCOUNT = 'aravindhnivas'
